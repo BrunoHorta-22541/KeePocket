@@ -3,16 +3,21 @@ import java.util.List;
 
 import pt.estig.twdm.pdm.keep_pocket.Category;
 import pt.estig.twdm.pdm.keep_pocket.Movement;
+import pt.estig.twdm.pdm.keep_pocket.User;
 import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface KPAPIService {
-    @GET("KeePocket/db")
+    @GET("KeePocket/category")
     Call<List<Category>> getCategory();
 
-    @GET("")
+    @GET("KeePocket/movement")
     Call<List<Movement>> getMovements();
 
+
+    /*
     @GET("")
-    Call<> getUsers();
+    Call<List<User>> getUsers();
+    */
+
 }
