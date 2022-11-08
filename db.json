@@ -1,78 +1,78 @@
 {
-   "category":[
-      {
-         "categoryName":"Gaming",
-         "categoryId":"1",
-         "limit":"20$",
-         "idUser":"1"
-      },
-      {
-         "categoryName":"Saúde",
-         "categoryId":"2",
-         "limit":"100$",
-         "idUser":"1"
-      },
-      {
-         "categoryName":"Estudos",
-         "categoryId":"3",
-         "limit":"700$",
-         "idUser":"1"
-      },
-      {
-         "categoryName":"Água",
-         "categoryId":"4",
-         "limit":"40$",
-         "idUser":"1"
-      },
-      {
-         "categoryName":"Luz",
-         "categoryId":"5",
-         "limit":"25$",
-         "idUser":"1"
-      },
-      {
-         "categoryName":"Alimentação",
-         "categoryId":"6",
-         "limit":"175$",
-         "idUser":"1"
-      }
-   ],
-   "movement":[
-      {
-         "idMovements":"1",
-         "idUser":"1",
-         "value":"20$",
-         "description":"placeholder"
-      },
-      {
-         "idMovements":"2",
-         "idUser":"1",
-         "value":"55$",
-         "description":"placeholder"
-      },
-      {
-         "idMovements":"3",
-         "idUser":"1",
-         "value":"630$",
-         "description":"placeholder"
-      },
-      {
-         "idMovements":"4",
-         "idUser":"1",
-         "value":"30$",
-         "description":"placeholder"
-      },
-      {
-         "idMovements":"5",
-         "idUser":"1",
-         "value":"60$",
-         "description":"placeholder"
-      },
-      {
-         "idMovements":"6",
-         "idUser":"1",
-         "value":"150$",
-         "description":"placeholder"
-      }
-   ]
+    "category": [
+        {
+            "categoryName": "Gaming",
+            "id": 1,
+            "limit": "20$",
+            "idUser": "1"
+        },
+        {
+            "categoryName": "Saúde",
+            "id": 2,
+            "limit": "100$",
+            "idUser": "1"
+        },
+        {
+            "categoryName": "Estudos",
+            "id": 3,
+            "limit": "700$",
+            "idUser": "1"
+        },
+        {
+            "categoryName": "Água",
+            "id": 4,
+            "limit": "40$",
+            "idUser": "1"
+        },
+        {
+            "categoryName": "Luz",
+            "id": 5,
+            "limit": "25$",
+            "idUser": "1"
+        },
+        {
+            "categoryName": "Alimentação",
+            "id": 6,
+            "limit": "175$",
+            "idUser": "1"
+        }
+    ],
+    "movement": [
+        {
+            "id": 1,
+            "idUser": 1,
+            "value": "20$",
+            "description": "placeholder"
+        },
+        {
+            "id": 2,
+            "idUser": 1,
+            "value": "55$",
+            "description": "placeholder"
+        },
+        {
+            "id": 3,
+            "idUser": 1,
+            "value": "630$",
+            "description": "placeholder"
+        },
+        {
+            "id": 4,
+            "idUser": 1,
+            "value": "30$",
+            "description": "placeholder"
+        },
+        {
+            "id": 5,
+            "idUser": 1,
+            "value": "60$",
+            "description": "placeholder"
+        },
+        {
+            "id": 6,
+            "idUser": 1,
+            "value": "150$",
+            "description": "placeholder"
+        }
+    ]
 }
